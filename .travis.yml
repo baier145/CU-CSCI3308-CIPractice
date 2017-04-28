@@ -1,3 +1,4 @@
+before-install: sudo apt-get install check
 language: C
 install: make dep
 compiler: gcc
